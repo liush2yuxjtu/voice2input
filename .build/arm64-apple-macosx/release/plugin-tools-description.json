@@ -1,0 +1,447 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.Voice2Input-arm64-apple-macosx26.0-release.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/sources",
+      "importPath" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/Sources/Voice2Input/AppDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/Sources/Voice2Input/AppSettings.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/Sources/Voice2Input/DebugLog.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/Sources/Voice2Input/FloatingOverlay.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/Sources/Voice2Input/GlobalFunctionKeyMonitor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/Sources/Voice2Input/LLMRefinementService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/Sources/Voice2Input/LLMSettingsWindow.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/Sources/Voice2Input/LanguageOption.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/Sources/Voice2Input/PermissionCenter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/Sources/Voice2Input/SpeechRecognitionService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/Sources/Voice2Input/TextInjector.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/Sources/Voice2Input/VoiceInputCoordinator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/Sources/Voice2Input/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "Voice2Input",
+      "moduleOutputPath" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Modules/Voice2Input.swiftmodule",
+      "objects" : [
+        "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/AppDelegate.swift.o",
+        "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/AppSettings.swift.o",
+        "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/DebugLog.swift.o",
+        "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/FloatingOverlay.swift.o",
+        "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/GlobalFunctionKeyMonitor.swift.o",
+        "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/LLMRefinementService.swift.o",
+        "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/LLMSettingsWindow.swift.o",
+        "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/LanguageOption.swift.o",
+        "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/PermissionCenter.swift.o",
+        "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/SpeechRecognitionService.swift.o",
+        "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/TextInjector.swift.o",
+        "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/VoiceInputCoordinator.swift.o",
+        "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-whole-module-optimization",
+        "-num-threads",
+        "8",
+        "-serialize-diagnostics",
+        "-O",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "Voice2Input_main",
+        "-swift-version",
+        "5",
+        "-I",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-L",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-plugin-path",
+        "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "voice2input"
+      ],
+      "outputFileMapPath" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/AppDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/AppSettings.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/DebugLog.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/FloatingOverlay.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/GlobalFunctionKeyMonitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/LLMRefinementService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/LLMSettingsWindow.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/LanguageOption.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/PermissionCenter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/SpeechRecognitionService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/TextInjector.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/VoiceInputCoordinator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Modules/Voice2Input.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/m1/projects/voice2input/Sources/Voice2Input/AppDelegate.swift",
+        "/Users/m1/projects/voice2input/Sources/Voice2Input/AppSettings.swift",
+        "/Users/m1/projects/voice2input/Sources/Voice2Input/DebugLog.swift",
+        "/Users/m1/projects/voice2input/Sources/Voice2Input/FloatingOverlay.swift",
+        "/Users/m1/projects/voice2input/Sources/Voice2Input/GlobalFunctionKeyMonitor.swift",
+        "/Users/m1/projects/voice2input/Sources/Voice2Input/LLMRefinementService.swift",
+        "/Users/m1/projects/voice2input/Sources/Voice2Input/LLMSettingsWindow.swift",
+        "/Users/m1/projects/voice2input/Sources/Voice2Input/LanguageOption.swift",
+        "/Users/m1/projects/voice2input/Sources/Voice2Input/PermissionCenter.swift",
+        "/Users/m1/projects/voice2input/Sources/Voice2Input/SpeechRecognitionService.swift",
+        "/Users/m1/projects/voice2input/Sources/Voice2Input/TextInjector.swift",
+        "/Users/m1/projects/voice2input/Sources/Voice2Input/VoiceInputCoordinator.swift",
+        "/Users/m1/projects/voice2input/Sources/Voice2Input/main.swift"
+      ],
+      "tempsPath" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build",
+      "wholeModuleOptimization" : true
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "Voice2Input" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "Voice2Input",
+      "-package-name",
+      "voice2input",
+      "-c",
+      "/Users/m1/projects/voice2input/Sources/Voice2Input/AppDelegate.swift",
+      "/Users/m1/projects/voice2input/Sources/Voice2Input/AppSettings.swift",
+      "/Users/m1/projects/voice2input/Sources/Voice2Input/DebugLog.swift",
+      "/Users/m1/projects/voice2input/Sources/Voice2Input/FloatingOverlay.swift",
+      "/Users/m1/projects/voice2input/Sources/Voice2Input/GlobalFunctionKeyMonitor.swift",
+      "/Users/m1/projects/voice2input/Sources/Voice2Input/LLMRefinementService.swift",
+      "/Users/m1/projects/voice2input/Sources/Voice2Input/LLMSettingsWindow.swift",
+      "/Users/m1/projects/voice2input/Sources/Voice2Input/LanguageOption.swift",
+      "/Users/m1/projects/voice2input/Sources/Voice2Input/PermissionCenter.swift",
+      "/Users/m1/projects/voice2input/Sources/Voice2Input/SpeechRecognitionService.swift",
+      "/Users/m1/projects/voice2input/Sources/Voice2Input/TextInjector.swift",
+      "/Users/m1/projects/voice2input/Sources/Voice2Input/VoiceInputCoordinator.swift",
+      "/Users/m1/projects/voice2input/Sources/Voice2Input/main.swift",
+      "-I",
+      "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-whole-module-optimization",
+      "-num-threads",
+      "8",
+      "-serialize-diagnostics",
+      "-O",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "Voice2Input_main",
+      "-swift-version",
+      "5",
+      "-I",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-L",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-plugin-path",
+      "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "voice2input",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "Voice2Input" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/Sources/Voice2Input/AppDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/Sources/Voice2Input/AppSettings.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/Sources/Voice2Input/DebugLog.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/Sources/Voice2Input/FloatingOverlay.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/Sources/Voice2Input/GlobalFunctionKeyMonitor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/Sources/Voice2Input/LLMRefinementService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/Sources/Voice2Input/LLMSettingsWindow.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/Sources/Voice2Input/LanguageOption.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/Sources/Voice2Input/PermissionCenter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/Sources/Voice2Input/SpeechRecognitionService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/Sources/Voice2Input/TextInjector.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/Sources/Voice2Input/VoiceInputCoordinator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/Sources/Voice2Input/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/sources"
+    },
+    "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/AppDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/AppSettings.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/DebugLog.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/FloatingOverlay.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/GlobalFunctionKeyMonitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/LLMRefinementService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/LLMSettingsWindow.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/LanguageOption.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/PermissionCenter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/SpeechRecognitionService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/TextInjector.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/VoiceInputCoordinator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/Voice2Input.product/Objects.LinkFileList"
+    },
+    "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/swift-version--1AB21518FC5DEDBE.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/m1/projects/voice2input/.build/arm64-apple-macosx/release/swift-version--1AB21518FC5DEDBE.txt"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+/Users/m1/projects/voice2input/Sources/Voice2Input/AppDelegate.swift
+/Users/m1/projects/voice2input/Sources/Voice2Input/AppSettings.swift
+/Users/m1/projects/voice2input/Sources/Voice2Input/FloatingOverlay.swift
+/Users/m1/projects/voice2input/Sources/Voice2Input/GlobalFunctionKeyMonitor.swift
+/Users/m1/projects/voice2input/Sources/Voice2Input/LLMRefinementService.swift
+/Users/m1/projects/voice2input/Sources/Voice2Input/LLMSettingsWindow.swift
+/Users/m1/projects/voice2input/Sources/Voice2Input/LanguageOption.swift
+/Users/m1/projects/voice2input/Sources/Voice2Input/PermissionCenter.swift
+/Users/m1/projects/voice2input/Sources/Voice2Input/SpeechRecognitionService.swift
+/Users/m1/projects/voice2input/Sources/Voice2Input/TextInjector.swift
+/Users/m1/projects/voice2input/Sources/Voice2Input/VoiceInputCoordinator.swift
+/Users/m1/projects/voice2input/Sources/Voice2Input/main.swift
